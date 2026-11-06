@@ -18,15 +18,10 @@ class CardScreen extends StatelessWidget {
     Contact(
       icon: Icons.email_outlined,
       label: 'Email',
-      value: 'vadym.boiko@example.com',
+      value: 'v.boyko@istu.edu.ua',
     ),
-    Contact(icon: Icons.code, label: 'GitHub', value: 'github.com/vadym-boiko'),
-    Contact(icon: Icons.send_outlined, label: 'Telegram', value: '@vadym_boiko'),
-    Contact(
-      icon: Icons.school_outlined,
-      label: 'Група',
-      value: 'АЛК-43',
-    ),
+    Contact(icon: Icons.code, label: 'GitHub', value: 'github.com/vboyko-ux'),
+    Contact(icon: Icons.school_outlined, label: 'Група', value: 'АЛК-43'),
   ];
 
   @override

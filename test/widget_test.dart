@@ -14,7 +14,7 @@ void main() {
     await tester.pumpWidget(const BusinessCardApp());
 
     expect(find.text('Вадим Бойко'), findsOneWidget);
-    expect(find.byType(ContactCard), findsNWidgets(4));
+    expect(find.byType(ContactCard), findsNWidgets(3));
 
     MaterialApp app() => tester.widget<MaterialApp>(find.byType(MaterialApp));
     expect(app().themeMode, ThemeMode.light);
